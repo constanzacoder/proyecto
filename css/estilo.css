@@ -1,0 +1,592 @@
+@charset "UTF-8";
+/* Variables colores */
+/* Colores Generales */
+h1 {
+  color: white; }
+
+h2 {
+  color: white; }
+
+h3 {
+  color: white; }
+
+/* Botón wapp colores */
+.btn-wsp {
+  background: #9b9b9b;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3); }
+
+.btn-wsp:hover {
+  color: #9b9b9b;
+  background-color: white; }
+
+/* Scroll bar */
+body::-webkit-scrollbar-thumb {
+  background-color: #3f3f2d; }
+
+/* Color fondo generales */
+.fondoGral {
+  background-color: #bcb49c; }
+
+/* Colores Index */
+/* Colores nav */
+.header .navbar-default .navbar-brand {
+  color: white; }
+
+.header .navbar-default .navbar-nav > li > a {
+  color: white; }
+
+.header .navbar-default .navbar-nav > li:hover a {
+  color: white; }
+
+/* Colores fondo index */
+.bgIndex {
+  background-color: #bcb49c; }
+
+/* Color frase 1 index */
+.frase1Color {
+  color: white; }
+
+/* Color frase 2 index */
+.frase2Color {
+  color: white; }
+
+/* Color frase título */
+.tituloColor {
+  color: white; }
+
+.bi {
+  color: white; }
+
+/* Colores footer */
+.bgIndexFooter {
+  background-color: #3f3f2d; }
+
+/* Colores íconos redes */
+.redes i {
+  color: white; }
+
+/* Colores Servicios */
+/* Color frase S index */
+.fraseSColor {
+  color: white; }
+
+/* Colores descripciones */
+.descripcionSs {
+  color: white; }
+
+/* Colores Estudio */
+/* Colores título estudio */
+.tituloNos {
+  color: #bcb49c; }
+
+/* Colores descripción 1 */
+.descripcionArq1 {
+  color: #bcb49c;
+  background-color: white; }
+
+/* Color fondo col izquierda */
+.arqFondo {
+  color: white;
+  background-color: #dfddd2; }
+
+/* Color subtítulo */
+.arqFlex {
+  color: white; }
+
+/* Colores descripción 2 */
+.descripcionArq2 {
+  color: #bcb49c;
+  background-color: white; }
+
+/* Colores fondo col derecha */
+.textoFondo {
+  background-color: #f7f6f2; }
+
+/* Colores Proyecto */
+.capa {
+  background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0; }
+
+.nombreProyectos {
+  color: white; }
+
+/* Colores Contacto */
+/* Color fondo */
+.fondoContacto {
+  background-color: #626249; }
+
+/* Color texto formulario */
+.flexContacto {
+  color: white; }
+
+.form input {
+  color: white; }
+
+.form .lbl-nombre {
+  border-bottom: white; }
+
+.text-nomb {
+  color: white; }
+
+.form input:focus + .lbl-nombre .text-nomb, .form input:valid + .lbl-nombre .text-nomb {
+  color: white; }
+
+/* CSS botón */
+.estiloBoton {
+  color: white;
+  background-color: #bcb49c; }
+
+@font-face {
+  font-family: HalfbreD;
+  src: url("../assets/font/HalfbreD.ttf") format("truetype"); }
+
+@font-face {
+  font-family: SourceSansProRegular;
+  src: url("../assets/font/SourceSansProRegular.ttf") format("truetype");
+  font-style: regular; }
+
+@font-face {
+  font-family: SourceSansProLight;
+  src: url("../assets/font/SourceSansProLight.ttf") format("truetype");
+  font-style: light; }
+
+/* Fuentes descargadas */
+.fontHalfbred {
+  font-family: HalfbreD; }
+
+.fontSourceSansProRegular {
+  font-family: SourceSansProRegular; }
+
+.fontSourceSansProLight {
+  font-family: SourceSansProLight;
+  font-style: light; }
+
+/* Configuración general */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+/* Quitar subrayado a links */
+a {
+  text-decoration: none; }
+
+/* Quitar deco a listas */
+li {
+  padding: 15px;
+  list-style: none; }
+
+ul li {
+  display: inline;
+  justify-content: right; }
+
+/* Variables tamanios */
+/* Tamanios Generales */
+/* Tamanios Encabezados h1 secciones */
+.titulosH1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+
+/* Tamanio título secundario */
+h2 {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px; }
+
+/* Tamanio títulos menor importancia */
+h3 {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 10px; }
+
+/* Botón wapp flotante y fijo */
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); }
+
+.btn-wsp:hover {
+  text-decoration: none; }
+
+/* Scroll bar */
+body::-webkit-scrollbar {
+  width: 8px; }
+
+/* Tamanio nav */
+nav {
+  font-size: 15px; }
+
+/* Tamanio nav versión mobile */
+@media only screen and (max-width: 600px) {
+  .nav {
+    font-size: 25px; } }
+
+/* Tamanio logo principal */
+.logo {
+  width: 40%;
+  height: auto;
+  margin: 30px 0px 0px 20px; }
+
+/* Tamanio logo versión mobile */
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
+
+/* Tamanio íconos redes */
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px; }
+
+/* Tamanios Index */
+/* Tamanios img index */
+.imgIndex {
+  background: url("../assets/img/imgIndex.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; }
+
+/* Tamanio img index versión mobile */
+@media only screen and (max-width: 600px) {
+  .imgIndex {
+    background: url("../assets/img/imgIndexMob.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh; } }
+
+/* Tamanios y config gral nav */
+.header .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  background-image: none;
+  box-shadow: none; }
+
+.header .navbar-default .navbar-brand {
+  font-size: 20px;
+  letter-spacing: 5px; }
+
+.header .navbar-default .navbar-nav > li > a {
+  position: relative;
+  font-size: 20px;
+  border-bottom: 1px solid transparent; }
+
+/* Tamanios frase 1 index */
+.frase1Flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 80px 0px 80px 0px; }
+
+/* Tamanio frase 1 index versión mobile */
+@media only screen and (max-width: 600px) {
+  .frase1Flex {
+    margin: 50px 10px 50px 10px; } }
+
+/* Tamanios frase 2 index */
+.frase2Flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: lighter;
+  margin: 80px 0px 80px 0px; }
+
+/* Tamanio frase 2 index versión mobile */
+@media only screen and (max-width: 600px) {
+  .frase2Flex {
+    margin: 80px 10px 50px 10px; } }
+
+/* Tamanios titulo principal index */
+.tituloFlex {
+  font-size: 20px;
+  letter-spacing: 5px;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0px 50px 0px; }
+
+/* Tamanios h1 versión mobile */
+@media only screen and (max-width: 600px) {
+  .tituloFlex {
+    font-size: 18px; } }
+
+/* Tamanios Servicios */
+/* Tamanio img servicios */
+.imgServicios {
+  background: url("../assets/img/imgServicio.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: auto; }
+
+/* Tamanio img servicios versión mobile */
+@media only screen and (max-width: 600px) {
+  .imgServicios {
+    background: url("../assets/img/imgServicioMob.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto; } }
+
+/* Box modeling titulo servicio */
+.tituloServicio {
+  margin: 15px 0px 15px 0px; }
+
+/* Tamanios frase 2 index */
+.fraseSFlex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-bottom: 50px; }
+
+/* Tamanio frase 2 index versión mobile */
+@media only screen and (max-width: 600px) {
+  .fraseSFlex {
+    font-size: 22px;
+    margin: 20px 10px 10px 10px; } }
+
+/* Flex para descripciones */
+.descripcionSs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px; }
+
+/* Tamanio para íconos */
+.iconoSize {
+  width: 18%;
+  height: 18%; }
+
+/* Flex para íconos */
+.iconoFlex {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+/* Tamanios Proyectos */
+/* Tamanios Img Proyecto 1 */
+.proyecto1 {
+  width: 100%;
+  height: auto;
+  margin: 0px 5px 5px 0px; }
+
+/* Tamanios Img Proyecto 1 */
+.proyecto2 {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 5px 0px; }
+
+/* Tamanios Img Proyecto 1 */
+.proyecto3 {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 5px 5px; }
+
+/* Efectos imágenes */
+.efectoP {
+  overflow: hidden;
+  transition: all 500ms ease-out; }
+
+.capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+  visibility: hidden;
+  text-align: center;
+  cursor: pointer; }
+
+.efectoP:hover > .capa {
+  opacity: 1;
+  visibility: visible; }
+
+.efectoP:hover > .capa h3 {
+  margin-top: 90px; }
+
+.nombreProyectos {
+  font-size: 40px;
+  letter-spacing: 2px; }
+
+/* Tamanios descripción proyecto */
+.fraseSFlex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 28px;
+  font-weight: lighter;
+  width: 100%;
+  margin-top: 10px; }
+
+/* Tamanio frase 2 index versión mobile */
+@media only screen and (max-width: 600px) {
+  .fraseSFlex {
+    font-size: 32px;
+    width: 100%;
+    margin: 20px 10px 10px 10px; } }
+
+/* Tamanios Estudio */
+/* Flex para descripción estudio 1 */
+.descripcionArq1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  margin: 30px 30px 30px 30px; }
+
+/* Flex para subtítulo */
+.arqFlex {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px; }
+
+/* Flex para descripción estudio 2 */
+.descripcionArq2 {
+  font-size: 15px;
+  line-height: 40px;
+  text-align: left;
+  margin: 30px 30px 30px 70px; }
+
+/* Flex para descripción estudio 2 versión mobile*/
+@media only screen and (max-width: 600px) {
+  .descripcionArq2 {
+    display: flex;
+    justify-content: center;
+    text-align: center; } }
+
+/* Tamanios Contacto */
+/* Flex para contacto */
+.flexContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  /* Box modeling para contacto */
+  margin: 15px 0px 15px 0px; }
+
+/* Flex para formulario */
+.flexContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  /* Box modeling para contacto */
+  margin: 15px 0px 15px 0px; }
+
+/* Flex para formulario versión mobile */
+@media only screen and (max-width: 600px) {
+  .flexContacto {
+    display: flex;
+    justify-content: center;
+    text-align: center; } }
+
+/* Formulario */
+.form {
+  width: 100%;
+  height: 50px;
+  max-width: 400px;
+  position: relative;
+  margin: 20px 0px 20px 0px; }
+
+.form input {
+  width: 100%;
+  height: 100%;
+  background: none;
+  padding-top: 20px;
+  border: none;
+  outline: 0px; }
+
+.form .lbl-nombre {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; }
+
+.form .lbl-nombre:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #fff;
+  transform: translateX(-100%);
+  transition: all 0.3s ease; }
+
+.text-nomb {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s ease; }
+
+.form input:focus + .lbl-nombre .text-nomb, .form input:valid + .lbl-nombre .text-nomb {
+  transform: translateY(-150%);
+  font-size: 14px; }
+
+.form input:focus + .lbl-nombre:after, .form input:valid + .lbl-nombre:after {
+  transform: translateX(0%); }
+
+/* CSS botón formulario */
+.estiloBoton {
+  text-align: center;
+  width: 200px;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px; }
+
+/* Crear manito sobre botón */
+.estiloBoton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s; }
+
+/* Transformación en botón */
+.estiloBoton:active {
+  transform: translateY(3px); }
+
+/* Tamaño imagen principal */
+.imgContacto {
+  width: 100%;
+  height: auto;
+  padding: 0; }
