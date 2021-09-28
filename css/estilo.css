@@ -30,13 +30,8 @@ body::-webkit-scrollbar-thumb {
 
 /* Colores Index */
 /* Colores nav */
-.header .navbar-default .navbar-brand {
-  color: white; }
-
-.header .navbar-default .navbar-nav > li > a {
-  color: white; }
-
-.header .navbar-default .navbar-nav > li:hover a {
+.header .navbar .nav-item > li > a {
+  background-color: transparent;
   color: white; }
 
 /* Colores fondo index */
@@ -121,18 +116,6 @@ body::-webkit-scrollbar-thumb {
 
 /* Color texto formulario */
 .flexContacto {
-  color: white; }
-
-.form input {
-  color: white; }
-
-.form .lbl-nombre {
-  border-bottom: white; }
-
-.text-nomb {
-  color: white; }
-
-.form input:focus + .lbl-nombre .text-nomb, .form input:valid + .lbl-nombre .text-nomb {
   color: white; }
 
 /* CSS botón */
@@ -289,17 +272,17 @@ nav {
     height: 100vh; } }
 
 /* Tamanios y config gral nav */
-.header .navbar-default {
+.header .navbar {
   background-color: transparent;
   border-color: transparent;
   background-image: none;
   box-shadow: none; }
 
-.header .navbar-default .navbar-brand {
+.header .navbar {
   font-size: 20px;
   letter-spacing: 5px; }
 
-.header .navbar-default .navbar-nav > li > a {
+.header .navbar-nav > li > a {
   position: relative;
   font-size: 20px;
   border-bottom: 1px solid transparent; }
