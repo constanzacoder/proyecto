@@ -28,29 +28,16 @@ body::-webkit-scrollbar-thumb {
 .fondoGral {
   background-color: #bcb49c; }
 
-/* Colores Index */
 /* Colores nav */
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
 .header .navbar .nav-item > li > a {
   background-color: transparent;
   color: white; }
 
-/* Colores fondo index */
-.bgIndex {
-  background-color: #bcb49c; }
-
-/* Color frase 1 index */
-.frase1Color {
-  color: white; }
-
-/* Color frase 2 index */
-.frase2Color {
-  color: white; }
-
-/* Color frase título */
-.tituloColor {
-  color: white; }
-
-.bi {
+/* Color frases y algunos títulos */
+.fraseColor {
   color: white; }
 
 /* Colores footer */
@@ -63,15 +50,6 @@ body::-webkit-scrollbar-thumb {
 
 .redes i:hover {
   color: #bcb49c; }
-
-/* Colores Servicios */
-/* Color frase S index */
-.fraseSColor {
-  color: white; }
-
-/* Colores descripciones */
-.descripcionSs {
-  color: white; }
 
 /* Colores Estudio */
 /* Colores título estudio */
@@ -88,10 +66,6 @@ body::-webkit-scrollbar-thumb {
   color: white;
   background-color: #dfddd2; }
 
-/* Color subtítulo */
-.arqFlex {
-  color: white; }
-
 /* Colores descripción 2 */
 .descripcionArq2 {
   color: #bcb49c;
@@ -105,9 +79,6 @@ body::-webkit-scrollbar-thumb {
 .capa {
   background-color: rgba(255, 255, 255, 0.3);
   opacity: 0; }
-
-.nombreProyectos {
-  color: white; }
 
 /* Colores Contacto */
 /* Color fondo */
@@ -221,20 +192,20 @@ body::-webkit-scrollbar {
   width: 8px; }
 
 /* Tamanio nav */
-nav {
-  font-size: 15px;
+.navbar-light .navbar-nav .nav-link {
+  font-size: 18px;
   letter-spacing: 2px; }
 
 /* Tamanio nav versión mobile */
 @media only screen and (max-width: 600px) {
-  .nav {
-    font-size: 25px; } }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 30px; } }
 
 /* Tamanio logo principal */
 .logo {
   width: 40%;
   height: auto;
-  margin: 30px 0px 0px 20px; }
+  margin: 30px 0px 30px 20px; }
 
 /* Tamanio logo versión mobile */
 @media only screen and (max-width: 600px) {
