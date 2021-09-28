@@ -25,8 +25,8 @@
 	<link rel="shortcut icon" href="../assets/img/favicon.png">
 
 </head>
-<body>		
-    <div class="container-fluid header fondoContacto">
+<body class="fondoContacto">		
+    <div class="container-fluid header">
         <div class="row">
             <div class="navbar navbar-default">  
                     <div class="navbar-header">
@@ -57,117 +57,68 @@
 	    </div>
 	</div> 
 
-	<div class="container-fluid fondoContacto">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<!-- Apertura subtitulo -->
-				<h1 class="fontHalfbred titulosH1">Contacto</h1>	
-				<!-- Cierre subtitulo -->
-			</div>	
-		</div>	
-	</div>		
+	<div class="fondoContacto">
+		<h1 class="fontHalfbred titulosH1 text-center ">Contacto</h1>
+	</div>
 
 	<div class="container-fluid fondoContacto fontSourceSansProLight">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12">				
-				<!-- Apertura descripción contacto -->
-				<p class="flexContacto">Escribinos para conocer más de nuestros servicios o solicitar un presupuesto</p>
-				<p class="flexContacto">Base en Rosario, Argentina para el mundo</p> 
-				<p class="flexContacto">+54 341 3541453</p>
-				<p class="flexContacto">info@estudionuet.com</p>
-				<!-- Cierre descripción contacto -->	
-			</div>
-		</div>	
+		<p class="flexContacto">Escribinos para conocer más de nuestros servicios o solicitar un presupuesto</p>
+		<p class="flexContacto">Base en Rosario, Argentina para el mundo</p>
+		<p class="flexContacto">+54 341 3541453</p>
+		<p class="flexContacto">info@estudionuet.com</p>
+	</div>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12">		
-				<form class="form">
-					<input type="text" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Nombre</span>
-					</label>
-				</form>
-			</div>	
-
-			<div class="col-lg-12 col-md-12 col-xs-12">		
-				<form class="form">
-					<input type="text" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Correo electrónico</span>
-					</label>
-				</form>
-			</div>	
-
-			<div class="col-lg-12 col-md-12 col-xs-12">		
-				<form class="form">
-					<input type="text" required>
-					<label class="lbl-nombre">
-						<span class="text-nomb">Teléfono</span>
-					</label>
-				</form>
-			</div>	
-
-			<div class="col-lg-12 col-md-12 col-xs-12">		
-				<form class="form">
-					<input type="text" required>
-					<label class="lbl-nombre" cols="60" rows="10">
-						<span class="text-nomb">Mensaje</span>
-					</label>
-				</form>
-			</div>	
-		</div>	
-	</div>	
+	<div>	
+		<form action="#" class="text-center formularioContacto">
+			<label for="nombre" class="flexContacto mt-3">Nombre y Apellido</label>
+			<br>
+			<input type="text" class="boxForm" name="nombre">
+			<br>
+			<label for="email" class="flexContacto">Correo electrónico</label>
+			<br>
+			<input type="email" class="boxForm" name="email">
+			<br>
+			<label for="telefono" class="flexContacto">Teléfono</label>
+			<br>
+			<input type="telefono" class="boxForm" name="telefono">
+			<br>
+			<label for="text" class="flexContacto">Mensaje</label>
+			<br>
+			<textarea name="text" class="boxForm" id="text" cols="40" rows="10"></textarea>
+			<br>
+			<div class="colorContacto">
+			<br>
+			<button type="submit" class="estiloBoton mb-3">ENVIAR</button>
+		</form>
+	</div>
+		
+	<img src="../assets/img/imgContact.jpg" class="imgContacto" alt="fachada">
 	
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<!-- Apertura button -->	
-				<button type="submit" class="estiloBoton">ENVIAR</button> 
-				<!-- Cierre button -->
-			</div>		
-		</div>			
-	</div>
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<!-- Apertura contenedor img Contacto -->
-				<div>
-					<img src="../assets/img/imgContacto.jpg" class="imgContacto" alt="fachada">
-				</div>
-				<!-- Cierre contenedor img Contacto -->				
-			</div>
+	<div class="row bgIndexFooter">
+		<div class="colg-lg-12 col-md-12 col-xs-12">	
+			<!-- Apertura de footer -->
+			<footer>
+				<ul class="redes">
+					<li>
+                		<a href="https://es-la.facebook.com/" target="_blank">
+                    		<i class="fab fa-facebook-f"></i>
+			            </a>
+			        </li>
+			        <li>
+			            <a href="https://www.instagram.com/estudionuet/" target="_blank">
+			                <i class="fab fa-instagram"></i>
+			            </a>
+            		</li>
+            		<li>
+			        	<a href="https://www.linkedin.com/company/estudio-nuet/" target="_blank">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+				</ul>
+				<h3 class="copyrightFlex">Ⓒ 2021 - ESTUDIO NUET</h3>
+			</footer>
+			<!-- Cierre de footer -->
 		</div>
-	</div>
-
-	<div class="container-fluid">	
-		<div class="row bgIndexFooter">
-			<div class="colg-lg-12 col-md-12 col-xs-12">	
-				<!-- Apertura de footer -->
-				<footer>
-					<ul class="redes">
-						<li>
-                			<a href="https://es-la.facebook.com/" target="_blank">
-                    			<i class="fab fa-facebook-f"></i>
-			                </a>
-			            </li>
-			            <li>
-			                <a href="https://www.instagram.com/estudionuet/" target="_blank">
-			                    <i class="fab fa-instagram"></i>
-			                </a>
-            			</li>
-            			<li>
-			                <a href="https://www.linkedin.com/" target="_blank">
-			                    <i class="fab fa-linkedin-in"></i>
-			                </a>
-            			</li>
-					</ul>
-					<h3 class="copyrightFlex">Ⓒ 2021 - ESTUDIO NUET</h3>
-				</footer>
-				<!-- Cierre de footer -->
-			</div>
-		</div>	
 	</div>	
 
 	<!-- Botón wapp flotante y fijo -->
