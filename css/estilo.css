@@ -103,6 +103,9 @@ body::-webkit-scrollbar-thumb {
 .flexContacto {
   color: white; }
 
+.flexForm {
+  color: white; }
+
 /* CSS botón */
 .estiloBoton {
   color: white;
@@ -160,7 +163,7 @@ ul li {
 /* Tamanios Generales */
 /* Tamanios Encabezados h1 secciones */
 .titulosH1 {
-  font-size: 50px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -168,6 +171,11 @@ ul li {
   margin-top: 50px;
   margin-bottom: 40px;
   letter-spacing: 3px; }
+
+/* Tamanio nav versión mobile */
+@media only screen and (max-width: 600px) {
+  .titulosH1 {
+    font-size: 30px; } }
 
 /* Tamanio título secundario */
 h2 {
@@ -216,6 +224,11 @@ body::-webkit-scrollbar {
 /* Tamanio nav versión mobile */
 @media only screen and (max-width: 600px) {
   .navbar-light .navbar-nav .nav-link {
+    font-size: 27px; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar-light .navbar-nav .nav-link {
     font-size: 30px; } }
 
 .navbar-light .navbar-nav .nav-item {
@@ -232,8 +245,15 @@ body::-webkit-scrollbar {
   .logo {
     width: 60%;
     display: flex;
-    flex-direction: row;
-    justify-content: left; } }
+    justify-content: left;
+    margin: 15px 0px 0px 5px; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 70%;
+    justify-content: left;
+    margin: 25px 0px 0px 10px; } }
 
 /* Tamanio íconos redes */
 .redes {
@@ -309,6 +329,11 @@ body::-webkit-scrollbar {
   .frase2Flex {
     margin: 80px 10px 50px 10px; } }
 
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .frase2Flex {
+    margin: 80px 28px 50px 28px; } }
+
 /* Tamanios titulo principal index */
 .tituloFlex {
   font-size: 20px;
@@ -343,8 +368,14 @@ body::-webkit-scrollbar {
 /* Tamanio frase 2 index versión mobile */
 @media only screen and (max-width: 600px) {
   .fraseSFlex {
-    font-size: 26px;
+    font-size: 21px;
     margin: 20px 10px 40px 10px; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .fraseSFlex {
+    font-size: 25px;
+    margin: 20px 30px 40px 30px; } }
 
 /* Flex para descripciones */
 .descripcionSs {
@@ -356,7 +387,13 @@ body::-webkit-scrollbar {
 /* Tamanio descripciones versión mobile */
 @media only screen and (max-width: 600px) {
   .descripcionSs {
-    font-size: 24px;
+    font-size: 18px;
+    margin: 20px 10px 20px 10px; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .descripcionSs {
+    font-size: 20px;
     margin: 20px 10px 20px 10px; } }
 
 /* Tamanio para íconos */
@@ -380,6 +417,15 @@ body::-webkit-scrollbar {
 /* Tamanio descripciones versión mobile */
 @media only screen and (max-width: 600px) {
   .proyectoImg {
+    width: 100%;
+    height: auto;
+    margin: 20px 5px 20px 0px; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .proyectoImg {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: auto;
     margin: 20px 5px 20px 0px; } }
@@ -413,6 +459,18 @@ body::-webkit-scrollbar {
     position: absolute;
     transition: all 500ms ease-out;
     width: 100%;
+    height: auto; } }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .capa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    transition: all 500ms ease-out;
+    width: 100%;
     height: 100%; } }
 
 .efectoP:hover > .capa {
@@ -437,6 +495,13 @@ body::-webkit-scrollbar {
   width: 100%;
   padding-left: 20px;
   padding-right: 20px; }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nombreProyectos {
+    font-size: 50px; }
+  .descripcionP {
+    font-size: 24px; } }
 
 /* Tamanio descripción proyecto versión mobile */
 @media only screen and (max-width: 600px) {
@@ -494,6 +559,23 @@ body::-webkit-scrollbar {
     justify-content: center;
     text-align: center; } }
 
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .arqFlex {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .descripcionArq2 {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+  .descripcionArq1 {
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px 45px 30px 45px; } }
+
 /* Tamanios Contacto */
 /* Flex para contacto */
 .flexContacto {
@@ -503,17 +585,34 @@ body::-webkit-scrollbar {
   font-size: 18px;
   letter-spacing: 2px;
   /* Box modeling para contacto */
-  margin: 15px 0px 15px 0px; }
+  margin: 15px 0px 5px 0px; }
+
+/* Tamanio nav versión tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .flexContacto {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 15px 20px 5px 20px;
+    letter-spacing: 2px; } }
 
 /* Flex para formulario */
-.flexContacto {
+.flexForm {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   /* Box modeling para contacto */
-  margin: 15px 0px 15px 0px; }
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.margenContacto {
+  margin-bottom: 50px; }
+
+.boxForm {
+  margin-top: 4px; }
 
 /* Flex para formulario versión mobile */
 @media only screen and (max-width: 600px) {
@@ -525,9 +624,6 @@ body::-webkit-scrollbar {
     margin-left: 18px;
     margin-right: 18px; } }
 
-.margenContacto {
-  margin-bottom: 40px; }
-
 /* Formulario */
 .formularioContacto {
   width: 600px;
@@ -537,7 +633,7 @@ body::-webkit-scrollbar {
   margin-bottom: 20px;
   margin: auto; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .formularioContacto {
     width: 100%;
     margin-top: 10px;
@@ -574,15 +670,13 @@ body::-webkit-scrollbar {
 
 /* Tamaño imagen principal */
 .imgContacto {
-  width: 100%;
+  width: 100vw;
   height: auto;
-  padding-left: 0px;
-  padding-right: 0px;
   margin-top: 20px; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .imgContacto {
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding-left: 0px;
     padding-right: 0px;
