@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
 .navbar-light .navbar-nav .nav-link {
   color: white; }
 
-.header .navbar .nav-item > li > a {
+.navbar .nav-item > li > a {
   background-color: transparent;
   color: white; }
 
@@ -273,7 +273,7 @@ body::-webkit-scrollbar {
   height: 100vh; }
 
 /* Tamanio img index versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .imgIndex {
     background: url("../assets/img/imgIndexMob.JPG");
     background-repeat: no-repeat;
@@ -283,17 +283,17 @@ body::-webkit-scrollbar {
     height: 100vh; } }
 
 /* Tamanios y config gral nav */
-.header .navbar {
+.navbar {
   background-color: transparent;
   border-color: transparent;
   background-image: none;
   box-shadow: none; }
 
-.header .navbar {
+.navbar {
   font-size: 20px;
   letter-spacing: 5px; }
 
-.header .navbar-nav > li > a {
+.navbar-nav > li > a {
   position: relative;
   font-size: 20px;
   border-bottom: 1px solid transparent; }
@@ -415,7 +415,7 @@ body::-webkit-scrollbar {
   margin: 0px 5px 40px 0px; }
 
 /* Tamanio descripciones versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .proyectoImg {
     width: 100%;
     height: auto;
@@ -450,7 +450,7 @@ body::-webkit-scrollbar {
   cursor: pointer; }
 
 /* Tamanio descripciones versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .capa {
     display: flex;
     justify-content: center;
@@ -504,7 +504,7 @@ body::-webkit-scrollbar {
     font-size: 24px; } }
 
 /* Tamanio descripción proyecto versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   .nombreProyectos {
     text-align: center;
     font-size: 35px;
@@ -586,6 +586,9 @@ body::-webkit-scrollbar {
   letter-spacing: 2px;
   /* Box modeling para contacto */
   margin: 15px 0px 5px 0px; }
+
+.fondoContacto {
+  overflow-x: hidden; }
 
 /* Tamanio nav versión tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
