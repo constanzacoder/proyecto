@@ -241,7 +241,7 @@ body::-webkit-scrollbar {
   margin: 20px 0px 30px 20px; }
 
 /* Tamanio logo versión mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .logo {
     width: 60%;
     display: flex;
@@ -265,7 +265,7 @@ body::-webkit-scrollbar {
 /* Tamanios Index */
 /* Tamanios img index */
 .imgIndex {
-  background: url("../assets/img/imgIndexI.jpg");
+  background: url("../assets/img/imgIndex.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -273,9 +273,9 @@ body::-webkit-scrollbar {
   height: 100vh; }
 
 /* Tamanio img index versión mobile */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .imgIndex {
-    background: url("../assets/img/imgIndexI.JPG");
+    background: url("../assets/img/imgIndexMob.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -677,7 +677,7 @@ body::-webkit-scrollbar {
   height: auto;
   margin-top: 20px; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .imgContacto {
     width: 100%;
     height: auto;
