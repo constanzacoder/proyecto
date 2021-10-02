@@ -275,7 +275,7 @@ body::-webkit-scrollbar {
 /* Tamanio img index versión mobile */
 @media only screen and (max-width: 700px) {
   .imgIndex {
-    background: url("../assets/img/imgIndexMob.JPG");
+    background: url("../assets/img/imgIndexI.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
