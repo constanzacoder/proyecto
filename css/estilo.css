@@ -94,6 +94,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #f7f6f2; }
 
 /* Colores Proyecto */
+.fondoProyecto {
+  background-color: white; }
+
 .capa {
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 0; }
@@ -165,6 +168,9 @@ body::-webkit-scrollbar-thumb {
 /* Quitar subrayado a links */
 a {
   text-decoration: none; }
+
+html {
+  scroll-behavior: smooth; }
 
 /* Quitar deco a listas */
 li {
